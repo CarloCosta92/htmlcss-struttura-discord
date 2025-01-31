@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
+
 header {
-    background-color: #add8e6;
-    
+    background-color: #add8e6;     
 }
 
 .header-container{
@@ -37,5 +37,23 @@ header {
     flex-shrink: 0;
     text-align: end;
     
+}
+
+.section-header-container {
+    background-color: #00008b;
+    height: 500px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+#head4 {
+    background-color: #ee82ee;
+    margin: 50px 505px 50px;
+    flex-grow: 1;
+    border: red 1px dotted;
+}
+
+#empty {
+    height: 5px;
 }
 
