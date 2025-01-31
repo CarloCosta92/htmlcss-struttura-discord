@@ -57,3 +57,24 @@ header {
     height: 5px;
 }
 
+.main-container1 {
+    display: flex;
+    justify-content: center;
+    height: 600px;   
+}
+
+#main1 {
+    width: 720px;
+    flex-shrink: 0;
+    background-color: #1e90ff;
+    margin: 50px 0 50px 360px;
+}
+
+#main2 {
+    flex-grow: 1;
+    background-color: #ffc0cb;
+    margin: 50px 360px 50px 0;
+}
+
+
+
