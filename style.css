@@ -6,12 +6,36 @@
 
 header {
     background-color: #add8e6;
-    height: 100px;
+    
 }
 
 .header-container{
     display: flex;
     justify-content: center;
-            
+    margin: 0 360px 0;
+    padding: 16px 0 16px;
+}
+
+.header-container > div {
+    background-color: #daa520;
+    border: red 1px dotted;
+    
+}
+
+#head1 {
+    width: 240px;
+    flex-shrink: 0;
+}
+
+#head2{
+    flex-grow: 1;
+    text-align: center;
+}
+
+#head3 {
+    width: 240px;
+    flex-shrink: 0;
+    text-align: end;
+    
 }
 
