@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #add8e6;
+    height: 100px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+            
+}
+
