@@ -125,3 +125,30 @@ header {
     border: #00008b 1px dotted;
 }
 
+.footer-container-small{
+    display: flex;
+    height: 110px;                                              /*rimuovere quando vengono inseriti i contenuti */   
+    background-color: #23272a;
+}
+
+#footer1 {
+    width: 1200px;
+    background-color: #7fffd4;
+    margin: 30px 360px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-ft{
+    width: 70px;
+    background-color: #ffb6c1;
+    align-self: center;
+}
+
+#button-ft {
+    width: 70px;
+    background-color: #ffb6c1;
+    align-self: center;
+
+}
+
