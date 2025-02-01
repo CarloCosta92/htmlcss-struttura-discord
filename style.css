@@ -1,8 +1,19 @@
+/***** 
+
+reset
+
+*****/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/***** 
+
+main
+
+*****/
 
 header {
     background-color: #add8e6;     
@@ -19,19 +30,17 @@ header {
     background-color: #daa520;    
 }
 
-#head1 {
+.lateral-head {
     width: 240px;
     flex-shrink: 0;
 }
 
-#head2{
+#head1{
     flex-grow: 1;
     text-align: center;
 }
 
-#head3 {
-    width: 240px;
-    flex-shrink: 0;
+#head2 {
     text-align: end;
 }
 
@@ -42,25 +51,28 @@ header {
     display: flex;
 }
 
-#head4 {
+#head3 {
     background-color: #ee82ee;
     margin: 50px 505px 50px;
     flex-grow: 1;
 }
 
-#empty {
+.hr {
     height: 5px;
 }
+
+/***** 
+
+main
+
+*****/
 
 .main-container {
     display: flex;
     justify-content: center;
     height: 600px;                                          /*rimuovere quando vengono inseriti i contenuti */   
 }
-.second-section {
-    display: flex;
-    justify-content: center;
-    height: 600px;         
+#second-section {   
     background-color: #d3d3d3;
 }
 
@@ -100,6 +112,12 @@ header {
     background-color: #228b22;
 }
 
+/***** 
+
+footer
+
+*****/
+
 .footer-container-big{
     display: flex;
     height: 630px;                                              /*rimuovere quando vengono inseriti i contenuti */   
@@ -132,7 +150,7 @@ header {
 }
 
 #footer1 {
-    width: 1200px;
+    flex-grow: 1;
     background-color: #7fffd4;
     margin: 30px 360px 0;
     display: flex;
@@ -140,13 +158,13 @@ header {
 }
 
 #logo-ft{
-    width: 70px;
+    width: 70px;                                            /*rimuovere quando vengono inseriti i contenuti */
     background-color: #ffb6c1;
     align-self: center;
 }
 
 #button-ft {
-    width: 70px;
+    width: 70px;                                            /*rimuovere quando vengono inseriti i contenuti */
     background-color: #ffb6c1;
     align-self: center;
 
