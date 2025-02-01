@@ -69,11 +69,14 @@ header {
     width: 720px;
     flex-shrink: 0;
     background-color: #1e90ff;
+    margin: 50px 0 50px 360px;
+
 }
 
 .box-small {
     flex-grow: 1;
     background-color: #ffc0cb;
+    margin: 50px 360px 50px 0;
 }
 
 #main1 {
@@ -115,5 +118,10 @@ header {
     flex-grow: 1;
     margin: 12px 360px 40px 0;
     background-color: #20b2aa;
+}
+
+.in-footer-dx {
+    flex-grow: 1;
+    border: #00008b 1px dotted;
 }
 
