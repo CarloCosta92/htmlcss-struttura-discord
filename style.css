@@ -30,17 +30,25 @@ header {
     background-color: #daa520;    
 }
 
-.lateral-head {
+.logo {
     width: 240px;
     flex-shrink: 0;
 }
 
-#head1{
+.nav{
     flex-grow: 1;
     text-align: center;
+    justify-content: center;
 }
 
-#head2 {
+.nav ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.login {
     text-align: end;
 }
 
